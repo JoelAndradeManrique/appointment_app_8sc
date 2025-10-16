@@ -2,6 +2,6 @@
     <h1 class="text-4xl font-bold text-center">
         Bienvenida al panel administrativo
     </h1>
-    Holu boli
+    Hola otra vez Iris
 
 </x-admin-layout>
