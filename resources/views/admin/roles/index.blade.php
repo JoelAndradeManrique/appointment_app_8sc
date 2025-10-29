@@ -4,7 +4,7 @@
     'href' => route('admin.dashboard'),
     ],
 
-    ['name' => 'Profile'],
+    ['name' => 'roles'],
 ]">
-    Funciona 
+    @livewire('admin.datatables.role-table')
 </x-admin-layout>

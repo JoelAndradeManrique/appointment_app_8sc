@@ -6,6 +6,9 @@
 [
     'name' => 'DSC',
     'href' => route('admin.dashboard'),
+],
+[
+    'name' => 'H8',
     ]
 ]">
     <x-slot name="header">
