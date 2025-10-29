@@ -8,7 +8,7 @@
     'href' => route('admin.roles.index'),
     ],
 
-    ['name' => 'editar'],
+    ['name' => 'editar holi'],
 ]">
     Funciona 
 </x-admin-layout>
