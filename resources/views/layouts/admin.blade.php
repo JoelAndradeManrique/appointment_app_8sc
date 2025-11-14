@@ -37,9 +37,16 @@
 
     <div class="p-4 sm:ml-64">
 
-        <div class="mt-14 flex itmems-center justify-between w-full">
-           @include('layouts.includes.admin.breadcrumb')
+        <div class="mt-14 flex items-center justify-between w-full">
+    @include('layouts.includes.admin.breadcrumb')
+
+    {{-- Slot opcional de acciones --}}
+    @isset($actions)
+        <div>
+            {{ $actions }}
         </div>
+    @endisset
+</div>
          {{$slot}}
     </div>
         @stack('modals')

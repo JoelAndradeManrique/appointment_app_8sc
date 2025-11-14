@@ -7,6 +7,10 @@
     'name' => 'Roles',
     'href' => route('admin.roles.index'),
     ],
+    [
+    'name' => 'Roles',
+    'href' => route('admin.users.index'),
+    ],
 
     ['name' => 'editar holi'],
 ]">
