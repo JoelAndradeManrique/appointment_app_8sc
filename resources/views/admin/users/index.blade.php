@@ -1,4 +1,4 @@
-<x-admin-layout :breadcrumbs="[
+<x-admin-layout title="Usuarios | healthify" :breadcrumbs="[
     ['name' => 'Dashboard', 'href' => route('admin.dashboard')],
     ['name' => 'Users'],
 ]">
@@ -9,5 +9,7 @@
             Nuevo Usuario
         </x-wire-button>
     </x-slot>
+
+    @livewire('admin.datatables.user-table')
 
 </x-admin-layout>
